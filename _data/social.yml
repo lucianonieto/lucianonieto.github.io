@@ -1,9 +1,9 @@
 - title: Email
-  url: mailto://luciano.nieto@gmail.com
+  url: mailto:luciano.nieto@gmail.com
   icon: fas fa-envelope
 - title: LinkedIn
   url: https://www.linkedin.com/in/luciano-nieto
   icon: fab fa-linkedin
 - title: GitHub
-  url: https://github.com/vszhub/lucnietoX
+  url: https://github.com/lucnietoX
   icon: fab fa-github
