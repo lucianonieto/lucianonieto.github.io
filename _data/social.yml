@@ -1,9 +1,9 @@
 - title: Email
-  url: mailto://vszhub@gmail.com
+  url: mailto://luciano.nieto@gmail.com
   icon: fas fa-envelope
-- title: Twitter
-  url: https://twitter.com/vszhub
-  icon: fab fa-twitter
+- title: LinkedIn
+  url: https://www.linkedin.com/in/luciano-nieto
+  icon: fab fa-linkedin
 - title: GitHub
-  url: https://github.com/vszhub/not-pure-poole
+  url: https://github.com/vszhub/lucnietoX
   icon: fab fa-github

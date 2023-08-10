@@ -1,6 +1,6 @@
 # Setup
 title: Luciano Nieto
-description: personal project research posts
+description: Coding Repository - Welcome!
 url: https://lucianonieto.github.io
 avatar: /avatar.jpeg
 paginate: 5
@@ -29,7 +29,7 @@ exclude:
 
 # Optimize Jekyl SEO Tag
 twitter:
-  username: vszhub
+  username: twitter
   card: summary
 logo: logo.png
 social:
