@@ -1,54 +1,8 @@
 ---
 layout: default
 ---
-<<<<<<< HEAD
 
-<!-- Page Header -->
-{% if page.background %}
-<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
-  {% else %}
-  <header class="masthead">
-    {% endif %}
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="page-heading">
-            <h1>{{ page.title }}</h1>
-            {% if page.description %}
-            <span class="subheading">{{ page.description }}</span>
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-
-        {{ content }}
-
-      </div>
-    </div>
-  </div>
-=======
-<main class="content fade-in-down delay-0_75s">
-    <div class="inner">
-        <article class="post">
-            {% if page.featured_image %}
-            <div class="post-thumbnail"><img src="{{ "/images/" | append: page.featured_image | prepend: site.baseurl }}" alt="{% if page.featured_image_alt %}{{ page.featured_image_alt }}{% else %}{{ page.title }}{% endif %}" /></div>
-            {% endif %}
-            <div class="entry-box">
-                <header class="entry-header">
-                    <h1 class="entry-title">{{ page.title }}</h1>
-                </header><!-- .entry-header -->
-                <div class="entry-content">
-                    {{content}}
-                </div><!-- .entry-content -->
-            </div><!-- .entry-box -->
-        </article><!-- .post -->
-    </div><!-- .inner -->
-</main><!-- .content -->
->>>>>>> 2718f83 (new)
+<article class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  {{ content }}
+</article>
