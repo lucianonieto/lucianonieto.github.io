@@ -1,108 +1,154 @@
-# jekyll-theme-H2O-ac
+# [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) - Official Jekyll Version
 
-![Gem (including prereleases)](https://img.shields.io/gem/v/jekyll-theme-h2o-ac)
-![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/zhonger/jekyll-theme-h2o-ac/jekyll.yml)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/60e1e5fb75b8411da3df2fbed7243aa6)](https://www.codacy.com/gh/zhonger/jekyll-theme-H2O-ac/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zhonger/jekyll-theme-H2O-ac&amp;utm_campaign=Badge_Grade)
-[![GitHub license](https://img.shields.io/github/license/zhonger/jekyll-theme-H2O-ac)](https://github.com/zhonger/jekyll-theme-H2O-ac/blob/master/LICENSE)
-![Jekyll Version](https://img.shields.io/badge/Jekyll-4.2.1-blue)
-![Ruby Version](https://img.shields.io/badge/Ruby-3.1.0-blue)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fzhonger%2Fjekyll-theme-H2O-ac.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fzhonger%2Fjekyll-theme-H2O-ac?ref=badge_shield)
-![Gem](https://img.shields.io/gem/dt/jekyll-theme-h2o-ac)
+[Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) is a stylish, responsive blog theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working contact form powered by [Formspree](https://formspree.io/).
 
-基于 Jekyll 和 [H2O](https://github.com/kaeyleo/jekyll-theme-H2O) 主题、适合学术研究人员和运维开发人员的博客主题模板。
-
-A Jekyll theme for researchers and maintainers based on Jekyll and [H2O](https://github.com/kaeyleo/jekyll-theme-H2O) theme.
+This repository holds the official Jekyll version of the Clean Blog theme on Start Bootstrap!
 
 ## Preview
 
-### [在线预览 Live Demo →](https://h2o-ac.pages.dev/)
+[![Clean Blog (Jekyll) Preview](https://startbootstrap.com/assets/img/screenshots/themes/clean-blog-jekyll.png)](http://StartBootstrap.github.io/startbootstrap-clean-blog-jekyll/)
 
-![vgy.me](https://i.vgy.me/PbODHY.png)
-![vgy.me](https://i.vgy.me/EPFN8X.png)
+**[View Live Preview](http://StartBootstrap.github.io/startbootstrap-clean-blog-jekyll/)**
 
-如果你喜欢这个博客模板，请在右上角star一下，非常感谢～
+## Installation & Setup
 
-If you like this theme or using it, please give a ⭐️ for motivation ;)
+### Using RubyGems
 
-如果想体验手机浏览效果，可以扫一下二维码：
+When installing the theme using RubyGems, demo images, posts, and pages are not included. Follow the instructions below for complete setup.
 
-Using your smartphone to scan the QR Code for preview
+1. (Optional) Create a new Jekyll site: `jekyll new my-site`
+2. Replace the current theme in your `Gemfile` with `gem "jekyll-theme-clean-blog"`.
+3. Install the theme (run the command inside your site directory): `bundle install`
+4. Replace the current theme in your `_config.yml` file with `theme: jekyll-theme-clean-blog`.
+5. Build your site: `bundle exec jekyll serve`
 
-<img src="https://i.vgy.me/0zuPYl.png" width=200 />
+Assuming there are no errors and the site is building properly, follow these steps next:
 
-## New Features compared with H2O， 与 H2O 不同的新特性
+1. Create the following pages if they do not exist already (or change the extension of existing markdown files from `.md` to `.html`):
 
-### CN
+   * `index.html` - set to `layout: home`
+   * `about.html` - set to `layout: page`
+   * `contact.html` - set to `layout: page`
+   * `posts/index.html` - set to `layout: page` (you will also need to create a `posts` directory)
 
-- 学术首页
-- 归档页
-- 系统日志页
-- 社交图标扩展
-- 查看大图
-- 代码高亮优化
-- 字数统计及阅读时间估计
-- 配置项
-- 前端自动构建工作流优化
-- 文章页侧边导航
-- Waline 评论系统
-- 深色模式切换按钮
-- 时间本地化
-- PWA
-- 提示框支持
-- 文章置顶
-- 版权显式声明
-- 国际化支持（简中、繁中、英文、日文）
+2. Configure the `index.html` front matter. Example:
 
-### EN
+    ```markdown
+    ---
+    layout: home
+    background: '/PATH_TO_IMAGE'
+    ---
+    ```
 
-- Academic Home Page
-- Archive Page
-- System Logs Page
-- An extened SNS icon set
-- Enlarge any pictures in articles
-- Optimize the code highlighting
-- Words Counts and evaluate needed time
-- New Settings
-- Optimize the automatic workflow for static files
-- The TOC for posts
-- Waline comments
-- Dark mode switch button
-- Time localization
-- PWA
-- Premonition
-- Top article pin
-- Copyright statement for articles
-- Internationlization (Simplified Chinese, Traditional Chinse, English, Japanese)
+3. Configure the `about.html`, `contact.html`, and `posts/index.html` front matter. Example:
 
-## Usage 快速开始
+    ```markdown
+    ---
+    layout: page
+    title: Page Title
+    description: This is the page description.
+    background: '/PATH_TO_IMAGE'
+    ---
+    ```
 
-请访问 [H2O-ac theme for Jekyll](https://lisz.me/tech/webmaster/new-theme-h2o-ac.html) 查看详情。
+4. For each post in the `_posts` directory, update the front matter. Example:
 
-Please refer to [H2O-ac theme for Jekyll](https://lisz.me/tech/webmaster/new-theme-h2o-ac.html) for details.
+    ```markdown
+    ---
+    layout: post
+    title: "Post Title"
+    subtitle: "This is the post subtitle."
+    date: YYYY-MM-DD HH:MM:SS
+    background: '/PATH_TO_IMAGE'
+    ---
+    ```
 
-## Contribution 贡献
+    For reference, look at the [demo repository](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll) to see how the files are set up.
 
-Any types of contribution are welcome. Thanks.
+5. Add the form to the `contact.html` page. Add the following code to your `contact.html` page:
 
-接受各种形式的贡献，包括不限于提交问题与需求，修复代码。等待您的 ```Pull Request```。
+    ```html
+    <form name="sentMessage" id="contactForm" novalidate>
+      <div class="control-group">
+        <div class="form-group floating-label-form-group controls">
+          <label>Name</label>
+          <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+      <div class="control-group">
+        <div class="form-group floating-label-form-group controls">
+          <label>Email Address</label>
+          <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+      <div class="control-group">
+        <div class="form-group col-xs-12 floating-label-form-group controls">
+          <label>Phone Number</label>
+          <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+      <div class="control-group">
+        <div class="form-group floating-label-form-group controls">
+          <label>Message</label>
+          <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+      <br>
+      <div id="success"></div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
+      </div>
+    </form>
+    ```
 
-## Thanks 感谢参与 H2O 代码贡献的伙伴
+    Make sure you have the `email` setting in your `_config.yml` file set to a working email address! Once this is set, fill out the form and then check your email, verify the email address using the link sent to you by Formspree, and then the form will be working!
 
-- [kaeyleo](https://github.com/kaeyleo/)
-- [Ray-Eldath](https://github.com/Ray-Eldath)
-- [sctop](https://github.com/sctop)
-- [bananaappletw](https://github.com/bananaappletw)
-- [moycat](https://github.com/moycat)
-- More
+6. Build your site: `bundle exec jekyll serve`
 
-## Contributors 贡献者
+### Using Core Files
 
-![Contributors](https://contrib.rocks/image?repo=zhonger/jekyll-theme-H2O-ac)
+When using the core files, the demo images, posts, and pages are all included with the download. After following the instructions below, you can then go and change the content of the pages and posts.
 
-## License 许可证
+1. [Download](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/archive/master.zip) or Clone the repository.
+2. Update the following configuration settings in your `_config.yml` file:
 
-Jekyll-Theme-H2O-ac is licensed under [MIT](https://github.com/zhonger/jekyll-theme-H2O-ac/blob/master/LICENSE).
+    * `baseurl`
+    * `url`
+    * `title`
+    * `email` (after setting this setting to a working email address, fill out the form on the contact page and send it - then check your email and verify the address and the form will send you messages when used)
+    * `description`
+    * `author`
+    * `twitter_username` (Optional)
+    * `facebook_username` (Optional)
+    * `github_username` (Optional)
+    * `linkedin_username` (Optional)
+    * `instagram_username` (Optional)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fzhonger%2Fjekyll-theme-H2O-ac.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fzhonger%2Fjekyll-theme-H2O-ac?ref=badge_large)
+3. Build your site: `bundle exec jekyll serve`
 
-![Alt](https://repobeats.axiom.co/api/embed/c3257de0cec8e91520debc3232103da52e4727b4.svg "Repobeats analytics image")
+## Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/issues) here on GitHub!
+
+## About
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* <https://startbootstrap.com>
+* <https://twitter.com/SBootstrap>
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**.
+
+* <http://davidmiller.io>
+* <https://twitter.com/davidmillerhere>
+* <https://github.com/davidtmiller>
+
+Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2021 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/blob/master/LICENSE) license.
