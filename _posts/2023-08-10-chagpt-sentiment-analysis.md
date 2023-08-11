@@ -32,7 +32,13 @@ To use these scripts, you will need the following:
 - API Key - OpenAI (free usage for 24h) or upgrade for paid plan.
 
 ## Coding and Exploratory Review
-{% jupyter_notebook "sample.ipynb" %}
+![data](/imgs/c1.png)
+![data](/imgs/c2.png)
+![data](/imgs/c3.png)
+![data](/imgs/c4.png)
+![data](/imgs/c5.png)
+![data](/imgs/c6.png)
+![data](/imgs/c7.png)
 
 ## Results
 
