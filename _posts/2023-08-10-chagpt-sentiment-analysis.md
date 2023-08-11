@@ -7,10 +7,21 @@ tags: [chatgpt, sentiment-analysis, python]
 toc:  true
 ---
 # Proven Practice, Using ChatGPT-3 API for Sentiment Analysis
-The Python-based data pipeline incorporates a specialized ChatGPT-3 API, designed to leverage proven practices and enable sentiment analysis. The repository seamlessly integrates with Google Reviews.
+Can ChatGPT Serve as an Integrated API for Multilingual Sentiment Analysis?
+In my pursuit of understanding sentiment analysis (since when I was in my graduation and the term “Data Mining” was hot), I encountered the challenge of effectively integrating the analysis of multiple languages simultaneously. 
+
+The complexity escalated when attempting to process varied languages concurrently.
+To address this challenge, I conducted a personal study using the ChatGPT API (accessible via a subscription). 
+The primary objective entailed parsing a Google Review dataset focused on a specific location: the Lisbon Airport in Portugal - spanning a single day. 
 
 ## Dataset
 The proposed Google Reviews dataset provides a sample of approximately 50 reviews about Lisbon Airport, directly in the original language in which they were written. To aid understanding, ChatGPT is able to automatically translate the provided text.
+
+Sample of the dataset:
+
+- You can download **[here](https://drive.google.com/file/d/1v_tmym1-2FHFLfkYw5lMkggbsWO1EVXs/view?usp=share_link)**.
+
+![Google Review Dataset](/imgs/ds_1.png)
 
 ## Requirements
 
@@ -20,13 +31,17 @@ To use these scripts, you will need the following:
 - Google Colab
 - API Key - OpenAI (free usage for 24h) or upgrade for paid plan.
 
-## Installation
+## Coding and Exploratory Review
+{% jupyter_notebook "/jupyter/OpenAIChatGPTAPI_SentimentAnalysis.ipynb" %}
 
-1. Clone this repository to your Google Colab! and install the libraries:
+## Results
 
-   ```bash
-   git clone https://github.com/lucnietoX/chatgpt_api_sentiment_analysis.git
-   
-2. Create API Key inside the OpenAI website.
+- Astonishingly, the results demonstrated a remarkable level of accuracy irrespective of the language involved, encompassing English, Portuguese, Spanish, Italian, and even German (languages present within the dataset). 
 
-3. Clone the repository into the Google Colab workspace.
+- Noteworthy is the fact that this process obviated the need for preliminary translation prior to engaging with the ChatGPT model.
+To outline the specifics, the dataset encompassed 50 (x3 execution) individual records. 
+- The associated cost incurred for this analysis amounted to a mere $0.03, making this a cost-effective solution.
+
+## More
+
+- GitHub Repo **[here](https://github.com/lucnietoX/chatgpt_api_sentiment_analysis.git)**.
