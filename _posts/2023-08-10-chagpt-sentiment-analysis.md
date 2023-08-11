@@ -6,7 +6,7 @@ last_modified_at: 2023-08-10 21:11 +0000
 tags: [chatgpt, sentiment-analysis, python]
 toc:  true
 ---
-# Proven Practice, Using ChatGPT-3 API for Sentiment Analysis
+
 Can ChatGPT Serve as an Integrated API for Multilingual Sentiment Analysis?
 In my pursuit of understanding sentiment analysis (since when I was in my graduation and the term “Data Mining” was hot), I encountered the challenge of effectively integrating the analysis of multiple languages simultaneously. 
 
@@ -32,7 +32,7 @@ To use these scripts, you will need the following:
 - API Key - OpenAI (free usage for 24h) or upgrade for paid plan.
 
 ## Coding and Exploratory Review
-
+{% jupyter_notebook "sample.ipynb" %}
 
 ## Results
 
