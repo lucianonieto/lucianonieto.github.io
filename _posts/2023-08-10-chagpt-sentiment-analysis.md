@@ -32,9 +32,7 @@ To use these scripts, you will need the following:
 - API Key - OpenAI (free usage for 24h) or upgrade for paid plan.
 
 ## Coding and Exploratory Review
-{::nomarkdown}
-{% jupyter_notebook "/jupyter/OpenAIChatGPTAPI_SentimentAnalysis.ipynb" %}
-{:/nomarkdown}
+
 
 ## Results
 

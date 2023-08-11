@@ -2,4 +2,4 @@ source "https://rubygems.org"
 gemspec
 
 gem 'jekyll-compose', group: [:jekyll_plugins]
-gem 'jekyll-jupyter-notebook'
+gem 'jekyll-jupyter-notebook', path: "/jupyter"
