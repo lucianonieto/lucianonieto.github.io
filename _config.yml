@@ -15,6 +15,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-jupyter-notebook
+  
 
 # Optimize Jekyll
 exclude:
