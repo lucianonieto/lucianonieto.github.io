@@ -51,3 +51,4 @@ To outline the specifics, the dataset encompassed 50 (x3 execution) individual r
 ## More
 
 - GitHub Repo **[here](https://github.com/lucnietoX/chatgpt_api_sentiment_analysis.git)**.
+- Notebook **[here](https://github.com/lucnietoX/chatgpt_api_sentiment_analysis/blob/main/OpenAIChatGPTAPI_SentimentAnalysis.ipynb)**
