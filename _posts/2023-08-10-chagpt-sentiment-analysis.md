@@ -3,6 +3,7 @@ layout: post
 title: Proven Practice, Using ChatGPT-3 API for Sentiment Analysis
 date: 2023-08-10 21:11 +0000
 last_modified_at: 2023-08-10 21:11 +0000
+author : Luciano Nieto
 tags: [chatgpt, sentiment-analysis, python]
 toc:  true
 ---
