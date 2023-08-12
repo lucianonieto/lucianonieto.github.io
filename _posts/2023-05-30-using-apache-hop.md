@@ -10,13 +10,13 @@ toc:  true
 This use case was created from an idea to have an integration data tool for a small company, for instance.
 Therefore, it is possible to use Apache Hop to integrate different kinds of systems and data.
 
-# About Apache Hop
+### About Apache Hop
 Apache Hop is an open-source data integration platform that provides a flexible and extensible environment for designing, orchestrating, and executing data integration workflows. It offers a wide range of connectors, transformations, and job execution capabilities, making it suitable for diverse integration scenarios.
 
-# Objective
+### Objective
 The purpose of this project is to showcase how Apache Hop can be utilized to enable seamless integration across different systems and data types. By leveraging its extensive set of features, users can easily connect, transform, and load data from multiple sources, enabling efficient data processing and analysis.
 
-# Concepts
+### Concepts
 **Metadata** is by far the most important concept in all of Hop. Every item we’ll cover below is defined as metadata. 
 All interactions between Hop and other components in your data architecture are done through metadata. 
 ### Metadata is at the core of everything in Hop.
@@ -24,7 +24,7 @@ All interactions between Hop and other components in your data architecture are 
 - **Workflows** are collections of actions, connected by hops. All actions in a workflow run sequentially by default.
 - **Projects** are logical collections of hop code and configuration. Environments contain the environment-specific (e.g. dev, uat, prd) metadata.
 
-# Hop
+### Hop
 The following code is the hop definition pipeline to extract the data from Amazon dataset and ingest it in our database - doing a couple of transformations:
 
 {% highlight xml %}
@@ -573,10 +573,10 @@ The following code is the hop definition pipeline to extract the data from Amazo
 </pipeline>
 {% endhighlight %}
 
-# Pipeline
-![data](/imgs/hop2.png)
+### Pipeline
+![data](/imgs/hop2.jpeg)
 
-# Installation
+### Installation
 To get started with this project, follow the steps below:
 
 1. Clone this repository to your local machine and install the libraries:
@@ -585,12 +585,12 @@ To get started with this project, follow the steps below:
 2. Perform access permissions into all ports
 3. Execute docker composer & pipelines
 
-# Docker file
+### Docker file
 ![data](/imgs/hop1.png)
 
-# Source
+### Source
 Kaggle dataset - Amazon Product: **https://www.kaggle.com/datasets/promptcloud/amazon-product-dataset-2020?resource=download**
 
-## More
+### More
 
 - GitHub Repo **[here](https://github.com/lucnietoX/di-apachehop-postgresql.git)**.
