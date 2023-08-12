@@ -3,6 +3,7 @@ layout: post
 title: Using Apache Hop!
 date: 2023-05-30 23:01 +0000
 last_modified_at: 2023-05-30 23:11 +0000
+author : Luciano Nieto
 tags: [apache-hop, etl, docker]
 toc:  true
 ---
