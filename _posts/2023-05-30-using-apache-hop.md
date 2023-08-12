@@ -591,7 +591,7 @@ To get started with this project, follow the steps below:
 ![data](/imgs/hop1.png)
 
 ### Source
-Kaggle dataset - Amazon Product: **https://www.kaggle.com/datasets/promptcloud/amazon-product-dataset-2020?resource=download**
+Kaggle dataset - Amazon Product: **(https://www.kaggle.com/datasets/promptcloud/amazon-product-dataset-2020?resource=download)**
 
 ### More
 
