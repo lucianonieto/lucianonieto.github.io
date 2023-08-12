@@ -1,0 +1,72 @@
+﻿Technology,Year,Count
+SQL Server,2008,1
+PostgreSQL,2008,1
+SQL Server,2009,1
+PostgreSQL,2009,1
+Java,2009,1
+SQL Server,2010,1
+IBM Cognos,2010,1
+IBM Cognos,2011,1
+ETL,2011,1
+SQL Server,2012,1
+ETL,2012,1
+ETL,2013,1
+IBM Cognos,2013,1
+Oracle,2013,1
+Talend Open Studio,2014,1
+SQL Server,2014,1
+Oracle,2014,1
+T-SQL,2014,1
+ETL,2014,1
+Tableau,2015,1
+IBM Cognos,2015,1
+SSIS,2015,1
+Pentaho,2016,1
+T-SQL,2016,1
+SSIS,2017,1
+SQL Server,2017,1
+T-SQL,2017,1
+SQL Server,2018,1
+Tableau,2018,1
+Python,2018,1
+Power BI ,2019,1
+SQL Server,2019,1
+Python,2019,1
+Databricks,2019,1
+Azure Data Factory,2019,1
+ADLS,2019,1
+Synapse DW,2019,1
+SQL Server,2019,1
+Power BI ,2020,1
+Databricks,2020,1
+Azure Data Factory,2020,1
+ADLS,2020,1
+Synapse DW,2020,1
+Python,2020,1
+SQL Server,2021,1
+Power BI ,2021,1
+Databricks,2021,1
+Azure Data Factory,2021,1
+ADLS,2021,1
+Azure SQL,2021,1
+Python,2021,1
+Airflow,2021,1
+Docker,2021,1
+SQL Server,2022,1
+Power BI ,2022,1
+Databricks,2022,1
+Azure Data Factory,2022,1
+ADLS,2022,1
+Azure SQL,2022,1
+Python,2022,1
+Airflow,2022,1
+Docker,2022,1
+SQL Server,2023,1
+Power BI ,2023,1
+Databricks,2023,1
+Azure Data Factory,2023,1
+ADLS,2023,1
+Azure SQL,2023,1
+Python,2023,1
+Airflow,2023,1
+Powershell,2023,1
