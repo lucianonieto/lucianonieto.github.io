@@ -580,7 +580,9 @@ The following code is the hop definition pipeline to extract the data from Amazo
 To get started with this project, follow the steps below:
 
 1. Clone this repository to your local machine and install the libraries:
+{% highlight console %}
    git clone https://github.com/lucnietoX/di-apachehop-postgresql.git
+{% endhighlight %}
    
 2. Perform access permissions into all ports
 3. Execute docker composer & pipelines
