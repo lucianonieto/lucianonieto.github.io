@@ -11,7 +11,7 @@ layout: default
       <span> ~ </span>
       {%- assign mdate = page.last_modified_at | date_to_xmlschema -%}
       <time datetime="{{ mdate }}" itemprop="dateModified">
-        {{ mdate | date: date_format }}
+        {{ mdate | date: date_format }} - Author: Luciano Nieto
       </time>
     {%- endif -%}
     {%- if page.author -%}
