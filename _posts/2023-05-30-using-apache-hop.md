@@ -25,7 +25,8 @@ All interactions between Hop and other components in your data architecture are 
 - **Projects** are logical collections of hop code and configuration. Environments contain the environment-specific (e.g. dev, uat, prd) metadata.
 
 # Hop
-The following code is the hop definition pipeline to extract the data from Amazon dataset and ingest in our database - doing a couple of transformations:
+The following code is the hop definition pipeline to extract the data from Amazon dataset and ingest it in our database - doing a couple of transformations:
+
 {% highlight xml %}
 <?xml version="1.0" encoding="UTF-8"?>
 <pipeline>
@@ -571,6 +572,9 @@ The following code is the hop definition pipeline to extract the data from Amazo
   <attributes/>
 </pipeline>
 {% endhighlight %}
+
+# Pipeline
+![data](/imgs/hop2.png)
 
 # Installation
 To get started with this project, follow the steps below:
