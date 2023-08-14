@@ -1,12 +1,31 @@
-
 <!DOCTYPE html>
 <html>
 <head>
   <title>Gráfico de Posição da Equipe</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      max-height: 300px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  </style>
 </head>
 <body>
-  <canvas id="equipeChart" width="400" height="300"></canvas>
+  <div class="container">
+    <h2>Posição das Equipes ao Longo dos Anos</h2>
+    <canvas id="equipeChart"></canvas>
+  </div>
 
   <script>
     var ctx = document.getElementById('equipeChart').getContext('2d');
@@ -22,40 +41,37 @@
           label: 'Equipe A',
           data: equipeA,
           borderColor: 'blue',
-          backgroundColor: 'blue',
-          fill: false,
+          backgroundColor: 'rgba(0, 0, 255, 0.1)',
+          pointBackgroundColor: 'blue',
+          fill: true,
         }, {
           label: 'Equipe B',
           data: equipeB,
           borderColor: 'red',
-          backgroundColor: 'red',
-          fill: false,
+          backgroundColor: 'rgba(255, 0, 0, 0.1)',
+          pointBackgroundColor: 'red',
+          fill: true,
         }]
       },
       options: {
-        title: {
-          display: true,
-          text: 'Posição das Equipes ao Longo dos Anos'
-        },
+        responsive: true,
+        maintainAspectRatio: false,
         scales: {
           x: {
-            type: 'linear',
-            position: 'bottom',
             title: {
               display: true,
               text: 'Ano'
             }
           },
           y: {
-            type: 'linear',
-            position: 'left',
             title: {
               display: true,
               text: 'Posição'
             },
             ticks: {
-              reverse: true, // Inverter a direção do eixo Y para que a posição mais baixa seja na parte superior
-              stepSize: 1
+              reverse: true,
+              stepSize: 1,
+              beginAtZero: true
             }
           }
         }
