@@ -2,8 +2,6 @@
 layout: page
 title: About | Luciano Nieto
 ---
-
-### Luciano Nieto
 Lisbon, Portugal
 
 - My career path kicked off when I was just 16 years old. That's when I enroled a programming logic course at SENAC in São Paulo. Right then, I knew I was heading in the right direction. When I started the college I'd my first introduction to working with data, and it was there that I discovered my passion for Business Intelligence. 
