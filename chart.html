@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gráfico de Posição da Equipe</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <canvas id="equipeChart" width="400" height="300"></canvas>
+
+  <script>
+    var ctx = document.getElementById('equipeChart').getContext('2d');
+    var years = [2019, 2020, 2021, 2022, 2023];
+    var equipeA = [3, 2, 1, 1, 2]; // Posições da Equipe A nos anos correspondentes
+    var equipeB = [2, 3, 2, 3, 1]; // Posições da Equipe B nos anos correspondentes
+
+    var chart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: years,
+        datasets: [{
+          label: 'Equipe A',
+          data: equipeA,
+          borderColor: 'blue',
+          backgroundColor: 'blue',
+          fill: false,
+        }, {
+          label: 'Equipe B',
+          data: equipeB,
+          borderColor: 'red',
+          backgroundColor: 'red',
+          fill: false,
+        }]
+      },
+      options: {
+        title: {
+          display: true,
+          text: 'Posição das Equipes ao Longo dos Anos'
+        },
+        scales: {
+          x: {
+            type: 'linear',
+            position: 'bottom',
+            title: {
+              display: true,
+              text: 'Ano'
+            }
+          },
+          y: {
+            type: 'linear',
+            position: 'left',
+            title: {
+              display: true,
+              text: 'Posição'
+            },
+            ticks: {
+              reverse: true, // Inverter a direção do eixo Y para que a posição mais baixa seja na parte superior
+              stepSize: 1
+            }
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>

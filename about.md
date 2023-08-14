@@ -15,4 +15,4 @@ title: About | Luciano Nieto
 - I hope you're enjoying.
 
 ### My working technologies over the time: 
-
+{% include chart.html %}
