@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Streaming Twitter data
-date: 2023-05-08 13:57 +0000
-last_modified_at: 2023-05-08 13:57 +0000
+date: 2023-03-08 13:57 +0000
+last_modified_at: 2023-03-08 13:57 +0000
 author : Luciano Nieto
 tags: [kafka, streaming, data-analysis, mongodb, python, real-time]
 toc:  true
