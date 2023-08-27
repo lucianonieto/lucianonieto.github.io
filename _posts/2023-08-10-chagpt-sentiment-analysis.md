@@ -43,9 +43,8 @@ To use these scripts, you will need the following:
 
 ## Results
 
-- Astonishingly, the results demonstrated a remarkable level of accuracy irrespective of the language involved, encompassing English, Portuguese, Spanish, Italian, and even German (languages present within the dataset). 
-
-- Noteworthy is the fact that this process obviated the need for preliminary translation prior to engaging with the ChatGPT model.
+- Impressive, the results demonstrated a huge level of accuracy on the all languages involved, surround English, Portuguese, Spanish, Italian, and even German (languages present within the dataset). 
+- Notable is the fact that this process avoid the need for preliminary translation prior to engaging with the ChatGPT model.
 To outline the specifics, the dataset encompassed 50 (x3 execution) individual records. 
 - The associated cost incurred for this analysis amounted to a mere $0.03, making this a cost-effective solution.
 

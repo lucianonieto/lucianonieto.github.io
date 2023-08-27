@@ -14,7 +14,7 @@ In my professional experience, I've had the opportunity to work with batch proce
 
 ## Technical solution
 
-![Google Review Dataset](/imgs/tweetk1.png)
+![](/imgs/tweetk1.png)
 
 
 ## Requirements
@@ -32,32 +32,32 @@ To use these scripts, you will need the following:
 
 This is our environment setup - managed by Docker compose file:
 > 
-![Google Review Dataset](/imgs/st1.png)
+![](/imgs/st1.png)
 
 ## Lenses/Kafka
 
 When the Docker goes up, verify the Kafka looking into the Lenses Web UI:
 
-![Google Review Dataset](/imgs/st2.png)
+![](/imgs/st2.png)
 
 - After that, I created the topic into the Kafka service - the name was "ktwitter".
 
-![Google Review Dataset](/imgs/st3.png)
+![](/imgs/st3.png)
 
 - Taking a look into the lenses if the topic was created successfuly: 
 
-![Google Review Dataset](/imgs/st4.png)
+![](/imgs/st4.png)
 
 ## Outcome
 
 - Once the setup process is finished, execute the provided script below to observe the outcomes within MongoDB.
 - Modify the keywords or conduct a comparative analysis between them.
 
-![Google Review Dataset](/imgs/st6.png)
+![](/imgs/st6.png)
 
 - Within the NoSQL Database, you can retrieve the data for the purpose of conducting analysis, generating statistics, or facilitating consumption through an alternative reporting tool.
 
-![Google Review Dataset](/imgs/st5.png)
+![](/imgs/st5.png)
 
 ## More
 
