@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Use Web Scraping to get data
+title: Use Web Scraping to Get Data
 date: 2023-12-09 12:33 +0000
 last_modified_at: 2023-12-09 12:33 +0000
 author : Luciano Nieto
