@@ -37,9 +37,11 @@ For this one:
 
 ![](/imgs/ws3.png)
 
+
 ## Code & Result
 ![](/imgs/ws1.png)
 
+Some websites don't allow to get data directly or updated - in this case there are a couple of hours of delay (of course it's a piece of financial information that should be used for many robots - and isn't paid).
 
 ## More
 
