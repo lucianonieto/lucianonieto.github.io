@@ -8,7 +8,7 @@ tags: [streaming, kafka, stomp, mongodb]
 toc:  true
 ---
 
-In this research I aimed in a streamlined architecture that can support a huge amount of data using NoSQL and Kafka inside a steram world that I don't have much experience in the real world. In fact, the streaming pipeline is a little bit different from batch, however, in the same time is almost the same idea (at least for me).
+In this research, I aimed at a streamlined architecture that can support a huge amount of data using NoSQL and Kafka inside a strange world which I don’t have much experience in the real world. The streaming pipeline is a little bit different from batch, however, at the same time is almost the same idea (at least for me).
 
 ## Technical solution
 
