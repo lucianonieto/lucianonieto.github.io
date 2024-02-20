@@ -58,4 +58,4 @@ This is a simple code that reads from the Queue and send it to MongoDB and Kafka
 
 ## More
 
-- GitHub Repo **[here](https://github.com/lucnietoX/principal/....)**.
+- GitHub Repo **[here](https://github.com/lucnietoX/Kafka-stream/)**.
