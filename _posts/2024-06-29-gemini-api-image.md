@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Analysis of NVIDIA Stock Trends Using the Gemini API and AI
-date: 2024-06-29 15:07 +0000
-last_modified_at: 2024-06-29 15:07 +0000
+date: 2024-06-29 06:45 +0000
+last_modified_at: 2024-06-29 06:45 +0000
 author : Luciano Nieto
 tags: [gemini, ai, artificialintelligence, intelligence, api]
 toc:  true
 ---
 
-In this research, I conducted an in-depth analysis of NVIDIA's stock trends up until June 2024. To achieve this, I utilized the Gemini API along with artificial intelligence to observe and interpret the stock trend charts over time.
+In the era of artificial intelligence, I invested in an in-depth examination of NVIDIA's stock trends up until June 2024. By leveraging the Gemini API and advanced AI techniques, it was possible to observe and interpret stock trend charts over time with enhanced precision and insight.
 
 ## Methodology:
 - Tools Used: For the static analysis, I employed Python, which enabled me to generate detailed visualizations of the stock price fluctuations.
@@ -20,11 +20,6 @@ To use this repo, you will need the following:
 
 - Clone this repository to your local machine.
 - Install the libraries: 
-
-
-
-
-
 
 ## More
 
