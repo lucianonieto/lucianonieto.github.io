@@ -32,7 +32,7 @@ To use this repo, you will need the following:
 
 ## Results / OUTPUT from GEMINI
 
-![](/imgs/gemi3.mov)
+![](/imgs/gemi3.gif)
 
 ## More
 
