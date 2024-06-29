@@ -21,6 +21,8 @@ To use this repo, you will need the following:
 - Download the dataset from Kaggle: https://www.kaggle.com/datasets/programmerrdai/nvidia-stock-historical-data
 - Clone this repository to your local machine.
 - Install the libraries: pip install google-generativeai, pillow, matplotlib.
+- Generate the Key in Google AI Vertex. (some regions might be paid)
+- https://cloud.google.com/vertex-ai/generative-ai/
 
 ## Code
 
