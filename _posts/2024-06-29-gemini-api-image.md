@@ -34,6 +34,8 @@ To use this repo, you will need the following:
 
 ![](/imgs/gemi3.gif)
 
+![](/imgs/gemi4.png)
+
 ## More
 
 - GitHub Repo **[here](https://github.com/lucnietoX/gemini-google-ai)**.
