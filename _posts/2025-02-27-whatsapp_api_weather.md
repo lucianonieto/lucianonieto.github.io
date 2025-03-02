@@ -107,7 +107,9 @@ if __name__ == "__main__":
 
 # .env
 - Create the file .env in the repository to apply the credentials and IPMA url and load in the settings:
+
 ```python
+
 """Settings..."""
 import os 
 from dotenv import load_dotenv
