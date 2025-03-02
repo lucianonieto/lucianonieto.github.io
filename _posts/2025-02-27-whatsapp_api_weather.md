@@ -103,10 +103,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 ```
 
 # .env
-- Create the file .env in the repository to apply the credentials and IPMA url and load in the settings:
+Create the file .env in the repository to apply the credentials and IPMA url and load in the settings:
 
 ```python
 
