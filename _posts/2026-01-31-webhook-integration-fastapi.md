@@ -24,7 +24,7 @@ The service receives webhook events, persists them safely, and processes them as
 The system follows a simple event-driven architecture:
 
 
-![](/imgs/ev2.png)
+![](/imgs/ev2.png) 
 
 
 ## Requirements
