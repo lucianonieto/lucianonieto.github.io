@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Automated Currency Exchange Pipeline with LLM Log Analysis using Prefect, Loki and Ollama"
+title: "Prefect pipeline with Agent LLM Log Analysis"
 date: 2026-05-31 19:48 +0000
 last_modified_at: 2026-05-31 19:48 +0000
 author: Luciano Nieto
