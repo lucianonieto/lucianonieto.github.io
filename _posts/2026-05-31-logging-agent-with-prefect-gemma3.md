@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Prefect pipeline with Agent LLM Log Analysis"
-date: 2026-05-31 19:48 +0000
-last_modified_at: 2026-05-31 19:48 +0000
+date: 2026-05-31 17:48 +0000
+last_modified_at: 2026-05-31 17:48 +0000
 author: Luciano Nieto
 tags: [python, prefect, loki, grafana, ollama, agent, llm, ai, gemma3, docker, data-engineering, observability]
 toc: true
