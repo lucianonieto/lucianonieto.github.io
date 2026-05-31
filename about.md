@@ -16,4 +16,4 @@ Lisbon, Portugal
 
 ### Working technologies by year of experience:
 
-![img](/imgs/chart2.png)
+<iframe src="/_assets_html/graph.htm" width="100%" height="1120" frameborder="0" scrolling="no" style="border:none;"></iframe>
