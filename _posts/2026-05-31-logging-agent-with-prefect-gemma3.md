@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Prefect pipeline with Agent LLM Log Analysis"
+title: "Prefect pipeline with Agentic LLM Log Analysis"
 date: 2026-05-31 17:48 +0000
 last_modified_at: 2026-05-31 17:48 +0000
 author: Luciano Nieto
